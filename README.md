@@ -9,6 +9,7 @@ Assignment are in homework
            - The challenge of this work is:
              1. Unseen timestamp
              2. Unseen entities (subject or object) |
+|-------|-------------|
 | Key Related Work | 1. Static Knowledge Graph Reasoning
                       2. Temporal Knowledge Graph Reasoning |
 | Solution | - They designed a Reinforcement learning framework and policy network and made the agent named TITer travel on the TKG to find the answer.

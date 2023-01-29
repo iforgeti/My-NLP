@@ -4,10 +4,9 @@ Assignment are in homework
 
 |Title | Time Traveler: Reinforcement Learning for Temporal Knowledge Graph Forecasting|
 |----------------------------------|------------------------------|
-|Problems | They do the TKG (Temporal knowledge graph) extrapolation type to predict future. For example, “Who going to be Thailand Prime Minister in 2023?”. |
-|The challenge of this work is.|
- |1. Unseen timestamp |
-|2. Unseen entities (subject or object)|
+|Problems | They do the TKG (Temporal knowledge graph) extrapolation type to predict future. For example, “Who going to be Thailand Prime Minister in 2023?”. The challenge of this work is.
+1. Unseen timestamp 
+2. Unseen entities (subject or object)|
 |Key Related Work | 1. Static Knowledge Graph Reasoning|
 |2. Temporal Knowledge Graph Reasoning|
 |

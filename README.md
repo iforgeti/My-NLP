@@ -12,7 +12,9 @@ Assignment are in homework
 | Results  | - They used 4 public TKG datasets (ICEWS14, ICEWS18, WIKI, YAGO) and split data for train, validate, and test by timestamps (used old time to train and test with newer time). <br>- They compared with other TKG models using Mean Reciprocal Rank and performance matrix Hits@1/3/10.<br>- The result showed that TITer (their model) outperformed all other models (TTransE, TA-DistMult, DE-SimplE, RE-NET, xERTE, etc.) in every dataset except ICEWS18 which had the least proportion of unseen entities. |
 
 
-| Topic | Dependency Parsing |
+
+
+| Topic | A Fast and Accurate Dependency Parser using Neural Networks |
 |----|----|
 | Problems | Traditional methods for dependency parsing can be slow and produce inaccurate results |
 | Key related work |Transition-based parsing algorithms, Neural network-based approaches |

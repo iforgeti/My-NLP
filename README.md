@@ -15,6 +15,6 @@ Assignment are in homework
 | Topic | Dependency Parsing |
 |----|----|
 | Problems | Traditional methods for dependency parsing can be slow and produce inaccurate results |
-| Key related work | Previous work in dependency parsing has used either transition-based parsing algorithms or neural network-based approaches, but both have limitations |
+| Key related work |Transition-based parsing algorithms, Neural network-based approaches |
 | Solution | The authors proposed a new model that combines the strengths of both transition-based parsing and neural network-based approaches. The model uses a neural network to make parsing decisions, but relies on a transition-based algorithm to maintain efficiency and handle complex cases |
 | Result | The authors showed that their model achieved fast and accurate parsing results, with improved performance compared to existing methods. The model was also shown to be scalable, making it suitable for real-world applications. |

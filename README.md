@@ -20,3 +20,14 @@ Assignment are in homework
 | Key related work |Transition-based parsing algorithms, Neural network-based approaches |
 | Solution | The authors proposed a new model that combines the strengths of both transition-based parsing and neural network-based approaches. The model uses a neural network to make parsing decisions, but relies on a transition-based algorithm to maintain efficiency and handle complex cases |
 | Result | The authors showed that their model achieved fast and accurate parsing results, with improved performance compared to existing methods. The model was also shown to be scalable, making it suitable for real-world applications. |
+
+
+|Topic| Self-Supervised Curriculum Learning for Spelling Error Correction (EMNLP,2021)|
+|----|----|
+| Problems | the data from different language learners are naturally distributed at different difficulty levels, designing
+a curriculum correspondingly for model learning may also help its training and bring about
+better performance |
+| Key Related Work| 1. Spelling Error Correction (SEC)<br>2. Curriculum Learning (CL)<br>3. Self-Supervised Learning (SSL)|
+| Solution | Do Self-Supervised Learning Curriculum Learning (SSCL) which is try to train model by using dataset that have low to high difficulty by <br> 1.check word difficulty<br>2.evaluate model competence<br>3. select data sample that not difficult more than model competence <br> 4. compute data weights (w sample and w token)  |
+| Results| compare their method (SSCL) with Uncertainty-Aware CL (UACL) and Norm-Based CL(BACL) <br> by using model Soft-Masked BERT and dataset SIGHAN 2015 Chinese spelling check their model got highest F1-score (74.38) <br> Ablation study <br> 1. use both w data and w token better than use only one <br>lamda (a task-independent hyperparameter to control the
+length of the curriculum) proper value is at at 0.9|

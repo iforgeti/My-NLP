@@ -35,7 +35,7 @@ Assignment are in homework
 |Topic| COCO-LM: Correcting and Contrasting Text Sequences for Language Model Pretraining (NIPS,2021) |
 |----|----|
 | Problems| they found pretrain self-supervised learning have main 2 challenge <br> 1. after a certain point, model that used for pretraining by standard token-level
-language modeling stop improve <br> 2. pre-trained language models might not capture the relationships between different elements of the input text |
+                   language modeling stop improve <br> 2. pre-trained language models might not capture the relationships between different elements of the input text |
 | Key Related Work |    |
 | Solution |     |
 | Results |     |

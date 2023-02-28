@@ -29,3 +29,13 @@ Assignment are in homework
 | Key Related Work| 1. Spelling Error Correction (SEC)<br>2. Curriculum Learning (CL)<br>3. Self-Supervised Learning (SSL)|
 | Solution | Do Self-Supervised Learning Curriculum Learning (SSCL) which is try to train model by using dataset that have low to high difficulty by <br> 1.check word  difficulty<br>2.evaluate model competence<br>3. select data sample that not difficult more than model competence <br> 4. compute data weights (w sample and w token)  |
 | Results| -test <br> compare their method (SSCL) with Uncertainty-Aware CL (UACL) and Norm-Based CL(BACL) <br> by using model Soft-Masked BERT and dataset SIGHAN 2015 Chinese spelling check their model got highest F1-score (74.38) <br> -Ablation study <br> 1. use both w data and w token better than use only one <br> 2.lamda (a task-independent hyperparameter to control the length of the curriculum) proper value is at at 0.9|
+
+## paper 3
+
+|Topic| COCO-LM: Correcting and Contrasting Text Sequences for Language Model Pretraining (NIPS,2021) |
+|----|----|
+| Problems| they found pretrain self-supervised learning have main 2 challenge <br> 1. after a certain point, model that used for pretraining by standard token-level
+language modeling stop improve <br> 2. pre-trained language models might not capture the relationships between different elements of the input text |
+| Key Related Work |    |
+| Solution |     |
+| Results |     |

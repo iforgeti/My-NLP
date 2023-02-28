@@ -35,6 +35,6 @@ Assignment are in homework
 |Topic| COCO-LM: Correcting and Contrasting Text Sequences for Language Model Pretraining (NIPS,2021) |
 |----|----|
 | Problems| they found pretrain self-supervised learning have main 2 challenge <br> 1. after a certain point, model that used for pretraining by standard token-level language modeling stop improve <br> 2. pre-trained language models might not capture the relationships between different elements of the input text |
-| Key Related Work |    |
-| Solution |     |
-| Results |     |
+| Key Related Work |  1. Various token-level tasks <br> 2. Sequence-level tasks <br> 3. MLM <br> 4. ELECTRA <br> 5. contrastive learning  |
+| Solution |  |
+| Results | The COCO-LM objective outperforms other state-of-the-art pre-training objectives on several language tasks, including text classification, natural language inference, and question answering. The authors also show that fine-tuning a model pre-trained with COCO-LM on downstream tasks leads to further improvements in performance.   |

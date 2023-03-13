@@ -45,4 +45,5 @@ Assignment are in homework
 |----|----|
 | Problems | Prompt base learning is underperforms supervised learning |
 | Key Related Work | 1. Few-shot learning <br> 2. Cloze-style question answering |
-| Solution | Combined supervised with few shot setting by reformulate input examples into cloze-style phrases <br>the method is <br>1. Pattern-Exploiting Training give input, pattern and map between label. make model to answer label base on pattern. 
+| Solution | Combined supervised with few shot setting by reformulate input examples into cloze-style phrases <br>the method is call Pattern-Exploiting Training --> train masked languages model by give input, pattern and map between label. make model to answer label base on pattern.|
+| Result | evaluate their method on many benchmark datasets, and show that it outperforms several state-of-the-art few-shot learning methods and supervised and unsupervised methode especially on small dataset.

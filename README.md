@@ -38,3 +38,10 @@ Assignment are in homework
 | Key Related Work |  1. Various token-level tasks <br> 2. Sequence-level tasks <br> 3. MLM <br> 4. ELECTRA <br> 5. contrastive learning  |
 | Solution | they present COCO-LM which is combine technique of both MLM and ELECTRA pretraining. In brif, they use generator tranfromer to predict missing token and feed that predict to discraminator,but they use CLM instead of binary classification score and they use SCL to contrast the corrupted sequences with crop sequences |
 | Results | The COCO-LM objective outperforms other state-of-the-art pre-training objectives on several language tasks, including text classification, natural language inference, and question answering. The authors also show that fine-tuning a model pre-trained with COCO-LM on downstream tasks leads to further improvements in performance.   |
+
+## paper 4
+
+|Topic| Exploiting Cloze Questions for Few Shot Text Classification and Natural Language Inference (EMNLP, 2021) |
+|----|----|
+| Problems | Few-shot learning is a challenging problem in natural language processing, particularly for tasks like text classification and natural language inference, where the available training data is limited. Existing few-shot learning methods rely on pre-trained language models that have been trained on a large amount of data, which may not be available for all languages or domains. Additionally, these methods typically require task-specific fine-tuning, which can be time-consuming and expensive. |
+

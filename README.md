@@ -43,5 +43,6 @@ Assignment are in homework
 
 |Topic| Exploiting Cloze Questions for Few Shot Text Classification and Natural Language Inference (EMNLP, 2021) |
 |----|----|
-| Problems | Few-shot learning is a challenging problem in natural language processing, particularly for tasks like text classification and natural language inference, where the available training data is limited. Existing few-shot learning methods rely on pre-trained language models that have been trained on a large amount of data, which may not be available for all languages or domains. Additionally, these methods typically require task-specific fine-tuning, which can be time-consuming and expensive. |
-
+| Problems | Prompt base learning is underperforms supervised learning |
+| Key Related Work | 1. Few-shot learning <br> 2. Cloze-style question answering |
+| Solution | Combined supervised with few shot setting by reformulate input examples into cloze-style phrases <br>the method is <br>1. Pattern-Exploiting Training give input, pattern and map between label. make model to answer label base on pattern. 

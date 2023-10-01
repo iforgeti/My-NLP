@@ -1,5 +1,5 @@
 # My-NLP
-Assignment are in homework
+Assignment for nlp course
 
 ## parse paper
 
@@ -47,3 +47,6 @@ Assignment are in homework
 | Key Related Work | 1. Few-shot learning <br> 2. Cloze-style question answering |
 | Solution | Combined supervised with few shot setting by reformulate input examples into cloze-style phrases <br>the method is call Pattern-Exploiting Training --> train masked languages model by give input, pattern and map between label. make model to answer label base on pattern.|
 | Result | evaluate their method on many benchmark datasets, and show that it outperforms several state-of-the-art few-shot learning methods and supervised and unsupervised methode especially on small dataset.
+
+
+[tranformers visualize](https://pytorch.org/blog/inside-the-matrix/)
